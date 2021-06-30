@@ -1,0 +1,181 @@
+/* body */
+body{
+    margin: 0px;
+}
+
+
+
+
+/* Navbar */
+#navbar ul {
+    display: flex;
+    font-family: 'Concert One', cursive;
+    padding: 2px 0px;
+}
+
+#navbar ul li a {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* this is the most important part */
+    padding: 0px 7px;
+}
+
+
+
+/* 1st section Home */
+
+
+/* header */
+header{
+    flex-direction: column;
+}
+
+header::before{
+    height: 651px;
+}
+
+
+
+#home{
+    height: 468px;
+    text-align: center;
+    padding: 0px 11px;
+    position: relative;
+    bottom: 67px;
+}
+
+
+#home h1{
+    font-size: 15px;
+    align-items: center;
+}
+
+#home p{
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+
+/* 2nd section Products */
+#section_2_heading{
+    font-size: 15px;
+}
+
+
+#second-section{
+    height: 872px;
+}
+
+
+.cardholder{
+    flex-wrap: wrap;
+}
+
+.cards{
+    height: 226px;
+    width: 192px;
+    font-size: 8px;
+    margin: 15px 0px;
+
+}
+
+#card1 p{
+    margin-top: 43px;
+}
+
+
+#card3 p{
+    margin-top: 54px;
+}
+
+/* images in individual cards */
+#imgintellogo{
+   
+    width: 124px;
+    
+   
+}
+
+
+/* nvidia logo pic */
+#nvidialogo{
+    width: 171px;
+    height: 103px;
+}
+
+
+/* ram logo pic */
+#ramlogo{
+    width: 190px;
+}
+
+
+
+
+
+
+
+/* 3rd section Our Clients */
+
+/* for bg image to set */
+#clientsection::before{
+    position: absolute;
+    top: 1624px;
+}
+
+#section_3_heading{
+    font-size: 15px;
+}
+
+#container_clients{
+    flex-wrap: wrap;
+}
+
+.boxes_clients{
+    margin: 0px 8px;
+    padding: 4px 12px
+}
+
+
+/* google logo */
+#googlelogo{
+    width: 79px;
+   
+}
+
+
+/* microsoft logo */
+#microsoftlogo{
+    width: 145px;
+}
+
+
+/* apple logo */
+#applelogo{
+    width: 145px;
+}
+
+
+/* jio logo */
+#jiologo{
+    width: 84px;
+}
+
+#margin-3{
+    position: relative;
+    top: 46px;
+}
+
+
+/* 4th section Contact Us */
+
+
+/* for bg image setting */
+#contactsection::before{
+    top: 2027px;
+    height: 567px;
+}
